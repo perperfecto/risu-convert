@@ -1,0 +1,16 @@
+// risu-convert: the rpack conversion server (AGPL-3.0).
+// As configured it has no public address (workers_dev: false).
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "risu-convert",
+  "main": "src/index.js",
+  "compatibility_date": "2025-06-01",
+  // Not on a public address: only bound workers can call it.
+  "workers_dev": false,
+  "preview_urls": false,
+  "observability": { "enabled": true },
+  "vars": {
+    // Public address of this program's source code.
+    "SOURCE_URL": "https://github.com/perperfecto/risu-convert"
+  }
+}

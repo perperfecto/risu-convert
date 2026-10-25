@@ -1,0 +1,20 @@
+{
+  "name": "risu-convert",
+  "version": "0.1.0",
+  "description": "RisuAI file converter: unpack/pack .risum modules, unpack .risup presets, export lorebooks and regex scripts for SillyTavern, Character Card V3 and Agnai.",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "bin": {
+    "risu-convert": "bin/risu-convert.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "wrangler.jsonc",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
