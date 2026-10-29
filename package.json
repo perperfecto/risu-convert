@@ -12,7 +12,8 @@
     "src",
     "wrangler.jsonc",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "NOTICE"
   ],
   "engines": {
     "node": ">=18"
